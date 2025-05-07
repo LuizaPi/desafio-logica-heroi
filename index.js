@@ -20,7 +20,7 @@
 //OBS.2: O ENUNCIADO OFERECE CONDIÇÕES PARA ATINGIR NÍVEIS
 
 let heroi = [
-    ["pikachu", "7930"]
+    ["pikachu", "10501"]
 ]
 
 if (heroi[0][1] <= 1000){
@@ -37,6 +37,6 @@ if (heroi[0][1] <= 1000){
     console.log("O Herói de nome " + heroi[0][0] + " está no nível de Ascendente")
 } else if (heroi[0][1] >=9001 && heroi[0][1] <= 10000){
     console.log("O Herói de nome " + heroi[0][0] + " está no nível de Imortal")
-} else if (heroi[0][1] >=10001){
+} else {
     console.log("O Herói de nome " + heroi[0][0] + " está no nível de Radiante")
 } 
